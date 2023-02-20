@@ -1,0 +1,4 @@
+/.venv
+/jobs.db
+/job_log.txt
+/__pycache__
