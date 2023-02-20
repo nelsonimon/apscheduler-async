@@ -37,18 +37,10 @@ def funcOne():
 def funcTwo():
     print('funcTwo - start')
     sleep(1)
-    #asyncio.run(myfunc_async())
     print('funcTwo - end')
 
 async def run():
     print(f'################## JOB STARTED #######################')
-    #JobLogger.log.info('################## JOB STARTED #######################')
-    scheduler.start()
-
-    #asyncio.get_event_loop_policy().get_event_loop().run_forever()
-    #asyncio.get_event_loop_policy().get_event_loop().run_forever()
-    #asyncio.get_event_loop_policy().get_event_loop().run_forever()
-
-    
+    scheduler.start()   
 
     

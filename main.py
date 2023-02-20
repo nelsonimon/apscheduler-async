@@ -1,6 +1,6 @@
 import asyncio
-import job_manager as JobManager
-from app import app as api
+import scheduler as JobManager
+from api import app as api
 import uvicorn
 
 class Server(uvicorn.Server):
