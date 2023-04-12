@@ -14,7 +14,7 @@ This contains three source files:
 
 Clone this repository:
 ```console
-git clone https://github.com/Miksus/rocketry-with-fastapi.git
+git clone https://github.com/nelsonimon/apscheduler-async.git
 ```
 
 Install the dependencies (This project was created in Python 3.10):
